@@ -54,6 +54,25 @@ cover/
 #data
 *.csv
 
+# Local datasets, caches, generated figures, and personal editor state
+/Data/
+/data/
+/Figures/
+/figures/
+/archive/
+.DS_Store
+.vscode/
+*.jsonl
+*.jsonl.gz
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.xlsx
+*.xls
+*.npy
+*.npz
+
 # Translations
 *.mo
 *.pot
