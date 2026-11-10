@@ -32,6 +32,8 @@ DEFAULT_EVENTS_DIR = ROOT / "Data" / "all_closed_sports"
 DEFAULT_NOTEBOOK = ROOT / "Polymarket_Closed_Sports_Combined_Pipeline.ipynb"
 UNCLASSIFIED = "Other / unclassified"
 VOLUME_TIERS = ["Low volume", "Mid volume", "High volume"]
+
+
 def as_list(value):
     if isinstance(value, list):
         return value

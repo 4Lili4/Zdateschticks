@@ -1,0 +1,7 @@
+jupyterlab
+matplotlib
+numpy
+pandas
+requests
+scikit-learn
+scipy>=1.11

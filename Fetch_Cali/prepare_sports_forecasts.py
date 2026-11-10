@@ -12,8 +12,8 @@ from pathlib import Path
 import pandas as pd
 
 
-ROOT = Path(__file__).resolve().parent
-DATA = ROOT / "data" / "all_closed_sports"
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "Data" / "all_closed_sports"
 MASTER = DATA / "closed_sports_all_data.csv"
 OUTPUT = DATA / "closed_sports_market_forecasts.csv"
 OUTPUT_COLUMNS = [

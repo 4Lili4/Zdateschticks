@@ -23,8 +23,8 @@ from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-ROOT = Path(__file__).resolve().parent
-DEFAULT_OUT = ROOT / 'data' / 'all_closed_sports'
+ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_OUT = ROOT / 'Data' / 'all_closed_sports'
 GAMMA = 'https://gamma-api.polymarket.com'
 DATA = 'https://data-api.polymarket.com'
 SPORTS_TAG_ID = '1'

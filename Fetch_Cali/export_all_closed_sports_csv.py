@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import Any
 
 
-DEFAULT_DATA_DIR = Path(__file__).resolve().parent / "data" / "all_closed_sports"
+DEFAULT_DATA_DIR = Path(__file__).resolve().parent.parent / "Data" / "all_closed_sports"
 HOURLY_METRICS = [
     "trade_records",
     "unique_transaction_hashes",
